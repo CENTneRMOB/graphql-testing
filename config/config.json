@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "boris",
+    "password": "9500",
+    "database": "Volt",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "boris",
+    "password": "9500",
+    "database": "Volt",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "boris",
+    "password": null,
+    "database": "Volt",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

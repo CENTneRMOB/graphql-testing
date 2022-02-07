@@ -1,0 +1,34 @@
+type Post {
+  title: String!
+  body: String!
+  author: User
+  published_at: String!
+}
+
+type Comment {
+  body: String!
+  author: User
+  published_at: String!
+}
+
+type User {
+  nickname: String!
+  email: String!
+  password: String!
+}
+
+type Mutation {
+  addPost(title: String!, body: String!, published_at: String): Post
+}
+
+mutation addPost {
+  addPost(title: , body: , published_at: ) {
+    id
+    title
+    body
+    published_at
+    author {
+      nickname
+    }
+  }
+}
